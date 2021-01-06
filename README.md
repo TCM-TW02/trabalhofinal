@@ -33,9 +33,21 @@ O website vai ter como nome “MovieTime”, pois parece-nos adequado para um we
 
 - C1: [Apresentação do Projeto](https://github.com/TCM-TW02/trabalhofinal/blob/main/docs/c1.md) 
 
-## Interface com o utilizador
+## Interface de utilizador
+
+- C2: [Interface de utilizador](https://github.com/TCM-TW02/trabalhofinal/blob/main/docs/c2.md) 
 
 ## Produto
 
+- C3: [Produto](https://github.com/TCM-TW02/trabalhofinal/blob/main/docs/c3.md) 
+
 ## Apresentação
+
+- C4: [Apresentação](https://github.com/TCM-TW02/trabalhofinal/blob/main/docs/c4.md)
+
+## Equipa
+
+Gonçalo António Vitorino Cortez [@gctz](https://github.com/gctz)
+Ricardo Filipe Moinhos Morais [@rickricky94](https://github.com/rickricky94)
+
 
