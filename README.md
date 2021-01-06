@@ -31,6 +31,8 @@ A página inicial vai ter uma lista dos diferentes anos de estreia e até mesmo 
 Utilizando os conhecimentos de HTML e CSS adquiridos nas aulas vamos aplicar listagem, hiperligações, tabelas, hiperligações, vários tipos de texto, imagens como os posters e outros. Vamos utilizar CSS para “decorar” o website com um design apelativo que vão ser fiéis uns aos outros, com por exemplo seletores para tornar o website mais dinâmico.
 O website vai ter como nome “MovieTime”, pois parece-nos adequado para um website sobre filmes.
 
+- C1: [Apresentação do Projeto](https://github.com/TCM-TW02/trabalhofinal/blob/main/docs/c1.md) 
+
 ## Interface com o utilizador
 
 ## Produto
