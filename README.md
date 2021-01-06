@@ -47,7 +47,7 @@ O website vai ter como nome “MovieTime”, pois parece-nos adequado para um we
 
 ## Equipa
 
-Gonçalo António Vitorino Cortez [@gctz](https://github.com/gctz)
-Ricardo Filipe Moinhos Morais [@rickricky94](https://github.com/rickricky94)
+- Gonçalo António Vitorino Cortez [@gctz](https://github.com/gctz)
+- Ricardo Filipe Moinhos Morais [@rickricky94](https://github.com/rickricky94)
 
 
