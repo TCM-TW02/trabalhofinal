@@ -1,7 +1,7 @@
 # Movie Time
 
 Repositório para dar host ao projeto desenvolvido para a disciplina de "Tecnologias Web" do 2º ano do Instítuto Superior da Maia (ISMAI).
-Desenvolvido por TW02: @gctz @rickricky94
+Desenvolvido por TW02: [@gctz](https://github.com/gctz), [@rickricky94](https://github.com/rickricky94).
 
 ## Apresentação do Projeto
 O tema que vamos realizar é um website sobre filmes estilo IMDB/Rotten Tomatoes, onde vamos listar diferentes filmes divididos pela sua categoria e ano de estreia.
