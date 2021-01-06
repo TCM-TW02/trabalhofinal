@@ -1,6 +1,5 @@
-#Movie Time
+# Movie Time
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : @MarcoOliveira, [add others].
 Repositório para dar host ao projeto desenvolvido para a disciplina de "Tecnologias Web" do 2º ano do Instítuto Superior da Maia (ISMAI).
 Desenvolvido por TW02: @gctz @rickricky94
 
