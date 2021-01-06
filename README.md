@@ -1,6 +1,6 @@
 # Movie Time
 
-![TW02_Logo](https://github.com/[TCM-TW02]/blob/main/src/images/TW02_logo.png?raw=true)
+!TW02_Logo(https://github.com/TCM-TW02/blob/main/src/images/TW02_logo.png?raw=true)
 
 Repositório para dar host ao projeto desenvolvido para a disciplina de "Tecnologias Web" do 2º ano do Instítuto Superior da Maia (ISMAI).
 Desenvolvido por TW02: [@gctz](https://github.com/gctz), [@rickricky94](https://github.com/rickricky94).
