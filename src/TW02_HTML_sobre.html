@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+
+<!-- HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>Sobre</title>
+    <link rel="icon" href="/images/TW02_logo.png" />
+    <meta name='author' content='Gonçalo Cortez e Ricardo Morais'>
+    <meta name="date" content="2020/12/30">
+    <meta name="keywords" content="movietime, movies, cast, director, genre, project">
+    <link href="TW02_CSS_sobre.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!-- BODY -->
+<body>
+
+    <a href="TW02_HTML.html"><img class ="logotipo" src="images/TW02_logo.png" alt="Movietime Logo" width="250" height="228"></a>
+
+    <header>
+
+    <!-- MENU PRINCIPAL -->
+    <ul class="menu">
+        <li class="menu"><a href="/TW02_HTML.html">Home</a></li>
+        <li class="menu"><a href="#categorias">Categories</a>
+            <ul class="dropdown">
+                <li class="drop"><a href="/TW02_HTML_horror.html">Horror</a></li>
+                <li class="drop"><a href="/TW02_HTML_comedia.html">Comedy</a></li>
+                <li class="drop"><a href="/TW02_HMTL_acao.html">Action</a></li>
+              </ul>
+        </li>
+        <li class="menu"><a href="/TW02_HTML_ranking.html" target="_blank">Ranking</a></li>
+        <li class="menu"><a href="/TW02_HTML_sobre.html" target="_blank">About</a></li>
+      </ul>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <h1 class="sobre">ABOUT</h1>
+
+        <div class="about">
+            <p class="info">This website was created for the final project of "Tecnologias Web" for the course of "Tecnologias de Comunicação Multimédia" from ISMAI.<br><br>
+            The function of this website is to help people find new movies to watch, dividing them by categories based on their genre. It also has information
+            about the production of the movie, like the director, main cast and release year, so that they can research about it if they are interested. It also has a link
+            for the trailer and some pictures from the movie itself.<br><br>
+        
+            Project made by Movie Time, composed of Gonçalo Cortez nº 36409 and Ricardo Morais nº 37258.</p>
+        </div>
+
+        <!-- FORMULARIO -->
+
+        <div class="formulario">
+            <h2 id="h2form">Formulário:</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="user_name"><br><br>
+                <label for="mail">E-mail:</label><br>
+                <input type="email" id="mail" name="user_mail"><br><br>
+                <input type="radio" name="gender" value="m">Male<br/>
+                <input type="radio" name="gender" value="f">Female<br/><br>
+                <label for="msg">Message/Opinion:</label><br>
+                <textarea id="msg" name="user_message"></textarea><br><br>
+                <input id="botao" type="submit">
+               </form>               
+        </div>
+
+        <div class="logo">
+            <img class="poster" src="/images/TW02_logo.png" alt="Logotipo">
+            <h2>The best movies website!</h2>
+            <a id ="xml" href="/TW02_XML.xml" download>Download XML File<br><br><br></a>
+
+            <!-- LIGAR XML AO HTML -->
+
+            <br>
+            <button type="button" class="botao" onclick="connectXML()">Ver lista de filmes XML</button>
+            <br><br>
+            <table id="tabelaxml"></table>
+    
+            <script>
+            function connectXML() {
+             var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+             if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+                        }
+                            };
+                                xmlhttp.open("GET", "TW02_XML.xml", true);
+                                xmlhttp.send();
+            }function myFunction(xml){
+            var i;
+            var xmlDoc = xml.responseXML;
+             var table="<tr><th>Title</th><th>Date</th><th>Genre</th></tr>";
+                var x = xmlDoc.getElementsByTagName("movie");
+                    for (i = 0; i <x.length; i++) { 
+                        table += "<tr><td>" +
+                            x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue +
+                                "</td><td>" +
+                                    x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue +
+                                        "</td><td>" +
+                                    x[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue +
+                                        "</td></tr>";
+                         }
+                    document.getElementById("tabelaxml").innerHTML = table;
+                }
+            </script>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer">
+            <p>All rights reserved to Movie Time. For more information visit the page <a href="TW02_HTML_sobre.html" target="_blank">About</a> </p>
+          </div>
+    </footer>
+
+</body>
+
+</html>

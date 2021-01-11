@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema"
+    attributeFormDefault="qualified">
+
+    <element name="movies">
+            <complexType>
+                <sequence> 
+                    <element name="movie" maxOccurs="unbounded">
+                        <complexType>
+                            <sequence>
+                                <element name="name" type="string"></element>
+                                <element name="image">
+                                    <simpleType>
+                                        <restriction base="string">
+                                            <pattern value="(.)+\.(gif|jpg|jpeg|bmp)"/>
+                                        </restriction>
+                                    </simpleType>
+                                </element>
+                                <element name="description" type="string"></element>
+                                <element name="genre" type="string"></element>
+                                <element name="length">
+                                    <simpleType>
+                                        <restriction base="string">
+                                            <minLength value ="8"/>
+                                            <maxLength value ="9"/>
+                                        </restriction>
+                                    </simpleType>
+                                </element>
+                                <element name="date" maxOccurs="unbounded">
+                                    <simpleType>
+                                        <restriction base="date">
+                                            <minInclusive value="1800-01-01"/>
+                                            <maxInclusive value="2024-12-31"/>
+                                            <pattern value=".{10}"/>
+                                        </restriction>
+                                    </simpleType>
+                                </element>
+                                <element name="director" type="string"></element>
+                                <element name="maincast" type="string"></element>
+                            </sequence>
+                        </complexType>
+                    </element>
+                </sequence>
+            </complexType>
+        </element>
+ </schema>

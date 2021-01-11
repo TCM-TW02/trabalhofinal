@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="TW02_XSD.xsd">
+    
+      <movie>
+        <name>Avengers: Infinity War</name>
+        <image>images\avengersiw_poster.jpg</image>
+        <description>The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the 
+            powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</description>
+        <genre>Action, Adventure, Sci-Fi</genre>
+        <length>02h 29min</length>
+        <date>2018-04-25</date>
+        <director>Anthony Russo, Joe Russo</director>
+        <maincast>Robert Downey Jr., Chris Hemsworth, Mark Ruffalo</maincast>
+      </movie>
+
+      <movie>
+        <name>Django Unchained</name>
+        <image>images\django_poster.jpg</image>
+        <description>With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.</description>
+        <genre>Drama, Western</genre>
+        <length>02h 45min</length>
+        <date>2013-01-24</date>
+        <director>Quentin Tarantino</director>
+        <maincast>Jamie Foxx, Christoph Waltz, Leonardo DiCaprio</maincast>
+      </movie>
+
+      <movie>
+        <name>The Dark Knight</name>
+        <image>images\thedarkknight_poster.jpg</image>
+        <description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, 
+            Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</description>
+        <genre>Action, Crime, Drama</genre>
+        <length>02h 32min</length>
+        <date>2008-07-24</date>
+        <director>Christopher Nolan</director>
+        <maincast>Christian Bale, Heath Ledger, Aaron Eckhart</maincast>
+      </movie>
+
+    <movie>
+        <name>Psycho</name>
+        <image>images\psycho_poster.jpg</image>
+        <description>A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, 
+            and checks into a remote motel run by a young man under the domination of his mother.</description>
+        <genre>Horror, Mystery, Thriller</genre>
+        <length>01h 49min</length>
+        <date>1960-11-22</date>
+        <director>Alfred Hitchcock</director>
+        <maincast>Anthony Perkins, Janet Leigh, Vera Miles</maincast>
+    </movie>
+
+    <movie>
+        <name>The Shining</name>
+        <image>images\theshining_poster.jpg</image>
+        <description>A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, 
+            while his psychic son sees horrific forebodings from both past and future.</description>
+        <genre>Drama, Horror</genre>
+        <length>02h 26min</length>
+        <date>1980-11-20</date>
+        <director>Stanley Kubrick</director>
+        <maincast>Jack Nicholson, Shelley Duvall, Danny Lloyd</maincast>
+    </movie>
+
+    <movie>
+        <name>Black Christmas</name>
+        <image>images\blackchristmas_poster.jpg</image>
+        <description>A group of female students is stalked by a stranger during their Christmas break. 
+        That is until the young sorority pledges discover that the killer is part of an underground college conspiracy.</description>
+        <genre>Horror, Mystery, Thriller</genre>
+        <length>01h 32min</length>
+        <date>2019-12-13</date>
+        <director>Sophia Takal</director>
+        <maincast>Imogen Poots, Aleyse Shannon, Lily Donoghue</maincast>
+    </movie>
+
+    <movie>
+        <name>Dracula</name>
+        <image>images\dracula_poster.jpg</image>
+        <description>The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker's fiancée Mina Murray and inflict havoc in the foreign land.</description>
+        <genre>Horror</genre>
+        <length>02h 08min</length>
+        <date>1993-02-26</date>
+        <director>Francis Ford Coppola</director>
+        <maincast>Gary Oldman, Winona Ryder, Anthony Hopkins</maincast>
+    </movie>
+
+    <movie>
+        <name>Eli</name>
+        <image>images\eli_poster.jpg</image>
+        <description>A boy receiving treatment for his auto-immune disorder discovers that the house he's living in isn't as safe as he thought.</description>
+        <genre>Drama, Horror, Mystery</genre>
+        <length>01h 38min</length>
+        <date>2019-10-18</date>
+        <director>Ciarán Foy</director>
+        <maincast>Charlie Shotwell, Kelly Reilly, Max Martini</maincast>
+    </movie>
+
+    <movie>
+        <name>Parasite</name>
+        <image>images\parasite_poster.jpg</image>
+        <description>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</description>
+        <genre>Comedy, Drama, Thriller</genre>
+        <length>02h 12min</length>
+        <date>2019-09-26</date>
+        <director>Bong Joon Ho</director>
+        <maincast>Song Kang-Ho, Lee Sun-kyun, Cho Yeo-jeong</maincast>
+    </movie>
+
+    <movie>
+        <name>Modern Times</name>
+        <image>images\moderntimes_poster.jpg</image>
+        <description>The Tramp struggles to live in modern industrial society with the help of a young homeless woman.</description>
+        <genre>Comedy, Drama, Family</genre>
+        <length>01h 27min</length>
+        <date>1937-03-02</date>
+        <director>Charles Chaplin</director>
+        <maincast>Charles Chaplin, Paulette Goddard, Henry Bergman</maincast>
+    </movie>
+
+    <movie>
+        <name>Back to the Future</name>
+        <image>images\bttf_poster.jpg</image>
+        <description>Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, 
+        the eccentric scientist Doc Brown.</description>
+        <genre>Adventure, Comedy, Sci-Fi</genre>
+        <length>01h 27min</length>
+        <date>1985-12-19</date>
+        <director>Robert Zemeckis</director>
+        <maincast>Michael J. Fox, Christopher Lloyd, Lea Thompson</maincast>
+    </movie>
+
+    <movie>
+        <name>Home Alone</name>
+        <image>images\homealone_poster.jpg</image>
+        <description>An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.</description>
+        <genre>Comedy, Family</genre>
+        <length>01h 43min</length>
+        <date>1991-01-25</date>
+        <director>Chris Columbus</director>
+        <maincast>Macaulay Culkin, Joe Pesci, Daniel Stern</maincast>
+    </movie>
+
+    <movie>
+        <name>Love Actually</name>
+        <image>images\loveactually_poster.jpg</image>
+        <description>Follows the lives of eight very different couples in dealing with their love lives in various 
+        loosely interrelated tales all set during a frantic month before Christmas in London, England.</description>
+        <genre>Comedy, Drama, Romance</genre>
+        <length>02h 15min</length>
+        <date>2003-11-14</date>
+        <director>Richard Curtis</director>
+        <maincast>Hugh Grant, Martine McCutcheon, Liam Neeson</maincast>
+    </movie>
+
+    <movie>
+        <name>The Lord of the Rings</name>
+        <image>images\lotrrotk_poster.jpg</image>
+        <description>Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.</description>
+        <genre>Action, Adventure, Drama</genre>
+        <length>03h 21min</length>
+        <date>2003-12-17</date>
+        <director>Peter Jackson</director>
+        <maincast>Elijah Wood, Viggo Mortensen, Ian McKellen</maincast>
+    </movie>
+
+    <movie>
+        <name>Inception</name>
+        <image>images\inception_poster.jpg</image>
+        <description>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.</description>
+        <genre>Action, Adventure, Sci-Fi</genre>
+        <length>02h 28min</length>
+        <date>2010-07-22</date>
+        <director>Christopher Nolan</director>
+        <maincast>Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page</maincast>
+    </movie>
+
+    <movie>
+        <name>Matrix</name>
+        <image>images\matrix_poster.jpg</image>
+        <description>When a beautiful stranger leads computer hacker Neo to a forbidding underworld, ^
+        he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.</description>
+        <genre>Action, Sci-Fi</genre>
+        <length>02h 16min</length>
+        <date>1999-06-25</date>
+        <director>Lana Wachowski, Lilly Wachowski</director>
+        <maincast>Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss</maincast>
+    </movie>
+
+    <movie>
+        <name>Léon: The Professional</name>
+        <image>images\leon_poster.jpg</image>
+        <description>Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, 
+        after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.</description>
+        <genre>Action, Crime, Drama</genre>
+        <length>01h 50min</length>
+        <date>1995-04-28</date>
+        <director>Luc Besson</director>
+        <maincast>Jean Reno, Gary Oldman, Natalie Portman</maincast>
+    </movie>
+</movies>

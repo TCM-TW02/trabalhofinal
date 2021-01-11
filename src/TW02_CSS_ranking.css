@@ -1,0 +1,248 @@
+body{
+    background-image: url("/images/background_principal.jpg");
+    background-size: cover;
+}
+
+h1.ranking{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    color:black;
+}
+
+/*Logotipo*/
+
+img.logotipo{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*Menu principal horizontal*/
+
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 58, 63);
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+li.menu{
+    float: left;
+}
+
+li.menu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+li.menu a:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+/*Dropdown menu de Categorias*/
+
+li.menu ul.dropdown{
+    display:none;
+    list-style-type: none;
+}
+
+ul.dropdown li.drop a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background:black;
+    margin-left: 1px;
+    white-space: nowrap;
+    transition-duration: 0.5s;
+}
+
+ul.dropdown li.drop a:hover{
+    background: black;
+}
+
+li.menu:hover ul.dropdown{
+    display: block;
+    position: absolute;
+}
+
+li.menu:hover li.drop{
+    float: none;
+    font-size: 11px;
+}
+
+li.menu:hover a{
+    background: black;
+}
+
+li.menu:hover li.drop a:hover{
+    background: rgb(95, 104, 113);
+}
+
+a[target="_blank"]:hover:after {
+    content: ' ➔';
+}
+
+/*TABELA*/
+
+.tabela {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 50%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.tabela thead tr {
+    background-color: rgb(53, 58, 63);
+    color: white;
+    text-align: left;
+}
+
+.tabela th,.tabela td {
+    padding: 15px 20px;
+}
+
+.tabela tbody tr {
+    border-bottom: 2px solid black;
+}
+
+.tabela tbody tr.primeirolugar {
+    font-weight: bold;
+}
+
+td.footinfo{
+    text-align: right;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+div.tranking{
+    margin: 100px;
+}
+
+div.rtrofeu{
+    display: block; 
+}
+
+img.trofeu{
+    width: 20%;
+    object-fit: cover;
+    float: right;
+    margin-top: -550px;
+    margin-right: 300px;
+    animation: appear 3s;
+}
+
+@keyframes appear{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+/*FOOTER*/
+
+footer{
+    margin-top: 50px;
+    padding: 10px 20px;
+    background:rgb(53, 58, 63);
+    color: white;
+}
+
+footer a{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: gold;
+}
+
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  /*baseado em mobile iPhone 6/7/8, testado no Firefox (375x667)*/
+
+  img.logotipo{
+      width: 100%;
+      height: 100%;
+  }
+
+  ul.menu{
+    padding: 100px;
+  }
+
+  li.menu a{
+      font-size: 40px;
+  }
+
+  footer{
+      display: inline-block;
+      margin-top: 30px; 
+      width: 100%;
+      font-size: 25px;
+      text-align: center;
+  }
+
+ .tabela{
+      width: 100%;
+      font-size: 36px;
+  }
+
+  h2{
+      text-align: center;
+  }
+
+
+  div.tranking{
+      margin: 0;
+  }
+
+  td.footinfo{
+      font-size: 24px;
+  }
+
+  img.trofeu{
+      width: 50%;
+      margin: 0;
+      margin-right: 200px;
+      animation: appear 3s;
+  }
+
+  @keyframes appear{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+  footer a{
+      font-size: 35px;
+  }
+}
