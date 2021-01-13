@@ -22,6 +22,7 @@ Estas são as tecnologias utilizadas neste projeto:
 - XSD
 - HTML
 - CSS
+- JavaScript
 
 ## Report
 
